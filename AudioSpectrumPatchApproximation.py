@@ -27,7 +27,7 @@ from sklearn.linear_model import OrthogonalMatchingPursuit
 from sklearn.decomposition import MiniBatchDictionaryLearning
 from sklearn.feature_extraction.image import extract_patches_2d
 from sklearn.feature_extraction.image import reconstruct_from_patches_2d
-from sklearn.decomposition import ProjectedGradientNMF
+from sklearn.decomposition import NMF as ProjectedGradientNMF
 from skimage.filter import gabor_kernel
 import bregman.suite as br 
 import pdb
